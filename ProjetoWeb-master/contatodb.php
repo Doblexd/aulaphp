@@ -1,3 +1,5 @@
+<?php include "conecta.inc.php";  ?>
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -23,8 +25,12 @@
 		    }else{
 		    	echo "<center><h4>Não foi possível enviar o e-mail. <a href=index.php?pg=faleconosco>Tente novamente.</a></h4></center>";
 		    }
+
+		    header("refresh: 3;faleconosco.php");
 		?>
 		</div>
 	  </div>
 	</div>
 </div>
+
+

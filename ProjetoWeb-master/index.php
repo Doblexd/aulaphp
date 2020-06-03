@@ -1,4 +1,3 @@
-<?php include "conecta.inc.php";  ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,6 +19,7 @@ body {
 <body>
  
 <?php 
+include_once("topo.php");
 include_once("menu.php");
  ?>
  

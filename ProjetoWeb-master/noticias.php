@@ -18,6 +18,7 @@ body {
 <body>
 
  <?php 
+include_once("topo.php");
 include_once("menu.php");
  ?>
 
@@ -27,7 +28,7 @@ include_once("menu.php");
 
   <div class="row">
     <div class="col-sm-4 text-center">
-      <a style="color: white" class="nav-link" href="contatenos.php">Valorant: Riot Games vai anunciar novidades nesta quinta-feira (21)</a>
+      <a style="color: white" class="nav-link" href="noticias.php">Valorant: Riot Games vai anunciar novidades nesta quinta-feira (21)</a>
       <img class ="col-sm-12 text-center" src="bootstrap/img/valorant.jpg">
     </div>
     <div class="col-sm-4 text-center">
@@ -35,7 +36,7 @@ include_once("menu.php");
       <img class ="col-sm-12 text-center" src="bootstrap/img/blackops.jpg">
     </div>
     <div class="col-sm-4 text-center">
-      <a style="color: white" class="nav-link" href="contatenos.php">Serious Sam 4 chega em agosto deste ano para PC e Google Stadia</a>
+      <a style="color: white" class="nav-link" href="noticias.php">Serious Sam 4 chega em agosto deste ano para PC e Google Stadia</a>
       <img class ="col-sm-12 text-center" src="bootstrap/img/serioussam.jpg">
     </div>
   </div>

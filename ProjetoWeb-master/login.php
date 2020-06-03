@@ -18,6 +18,7 @@ body {
 <body>
 
 <?php 
+include_once("topo.php");
 include_once("menu.php");
  ?>
 
@@ -26,7 +27,7 @@ include_once("menu.php");
 <div style="background-color: white" class="container img-circle">
 <br></br> 
   <h2>Entrar</h2> 
-  <form  id="contactForm" action="?pg=adm" method="post">
+  <form  id="contactForm" action="admin/admlogin.php" method="post">
    Login: <input type="login" class="form-control" name="login"/>
    Senha: <input type="password" class="form-control" name="senha"/>
    <br></br>
